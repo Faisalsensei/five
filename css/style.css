@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/* Header Section*/
+
+header{
+	width: 100%;
+	float: left;
+	background-color: #F5F9F8;
+	padding: 20px 0px;
+}
+
+.logo{
+	width: 30%;
+	float: left;
+}
+
+.menu{
+	width: 70%;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+nav ul li a{
+	color: orange;
+	text-decoration: none;
+	font-size: 25px;
+	transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+	color: green;
+}
+
+/* Banner section */
+
+.banner{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	padding: 20px 0px;
+}
+
+.banner-main{
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.banner-main h2{
+	color: white;
+	font-size: 110px;
+	text-transform: uppercase;
+}
+
+.banner-main span{
+	border-bottom: 2px solid skyblue;
+	display: block;
+	width: 72%;
+	margin: 5px auto;
+}
+
+.banner-main p{
+	color: white;
+	margin: 10px 0;
+}
+
+.banner-btn{
+	padding: 10px 20px;
+	margin: 10% auto;
+	background: transparent;
+	border: 1px solid #4a8ebb;
+	color: white;
+	font-size: 20px;
+}
+
+.banner-icon{
+	color: white;
+	font-size: 18px;
+}
+
+.fa.fa-chevron-down{
+
+}
+
+/* portfolio section */
+
+.portfolio{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+
+.position{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+
+.image-hover{
+	width: 33.33%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.image-hover img{
+	width: 100%;
+}
+
+.image-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #00adffa8;
+	top: 0;
+	opacity: 0;
+	transition: .5s ease-in-out;
+}
+
+.image-hover-content h2{
+	position: absolute;
+	top: 35%;
+	color: yellow;
+	left: 25%;
+}
+
+.image-hover-content p{
+	position: absolute;
+	top: 45%;
+	color: orange;
+	font-size: 20px;
+	left: 20%;
+}
+
+.image-hover:hover .image-hover-content{
+	opacity: 1;
+}
+
+/* Contact section */
+
+.contact{
+	background: url(../img/contact.jpg)no-repeat;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+
+.contact-form{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.form-control{
+width: 80%;
+height: 50px;
+margin-bottom: 10px;
+background: transparent;
+border: 1px solid green;
+padding: 5px;
+}
+
+.cstm-area{
+	width: 80%!important;
+	height: 100px;
+	background: transparent;
+	border: 1px solid green;
+	padding-left: 5px;
+}
+
+.form-footer{
+
+}
+
+.form-footer-left{
+
+}
+
+.form-footer-left label{
+	color: yellow;
+}
+
+.form-footer-right{
+	
+}
+
+.submit-btn{
+	float: center;
+	background: transparent;
+	border: 1px solid orange;
+	padding: 10px 30px;
+	color: red;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+}
